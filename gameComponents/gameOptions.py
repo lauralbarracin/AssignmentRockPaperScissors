@@ -2,9 +2,9 @@ from gameComponents import gameVars
 from random import randint
 
 def gameOptions():
-    print ("==========*  R  O  C K  - P A P E R - S C I S S O R S **  THE ORIGINAL GAME **====")
-    print ("^^Do you believe in luck? you will need it if you want to play this game **")
-    print ("You will have three lives. This is a traditional game, just choose a weapon R O C K *  P A P E R * S C I S S O R S")
+    print ("==========*  R  O  C K  - P A P E R - S C I S S O R S **  THE ORIGINAL GAME *=======")
+    print (" ^^ DO YOU BELIEVE IN LUCK?  You will need it if you want to play this game *_*")
+    print ("You will have three (3) lives during this traditional game. Now is your turn... Choose a weapon: R - O - C - K *  P- A - P -E - R * S - C - I -S S O R S")
     print("Computer Lives:", gameVars.computer_lives, "/", gameVars.total_lives)
     print("Player Lives:", gameVars.player_lives, "/", gameVars.total_lives)
     print("=============================================================================")
